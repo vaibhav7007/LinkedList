@@ -7,11 +7,12 @@ namespace DataStructure_LinkedList
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the data structure linked list");
-            //UC1 Simple LinkedList
             LinkedList list = new LinkedList();
-            list.Insert(56);
-            list.Insert(30);
-            list.Insert(70);
+            //UC3 Appending elements
+            list.Append(56);
+            list.Append(30);
+            list.Append(70);
+            list.Display();
         }
     }
 }
